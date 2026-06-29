@@ -33,7 +33,7 @@ jobs:
 
           chmod +x gradlew
 
-          ./gradlew assembleDebug --stacktrace
+          ./gradlew assembleDebug --no-daemon 2>&1
 
       - uses: actions/upload-artifact@v4
 
