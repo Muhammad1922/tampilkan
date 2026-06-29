@@ -1,0 +1,161 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nusantaraceremony"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:17:5-19:41
+8        android:minSdkVersion="21"
+8-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:18:9-35
+9        android:targetSdkVersion="33" />
+9-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:19:9-38
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:8:5-67
+12-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:9:5-79
+13-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:9:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:10:5-76
+14-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:10:22-73
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:11:5-65
+15-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:11:22-62
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:12:5-80
+16-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:12:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:13:5-81
+17-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:13:22-78
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:14:5-79
+18-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:14:22-76
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:15:5-81
+19-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:15:22-78
+20
+21    <permission
+21-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/580e8a8d8b85cb6081ef73130b5d7f18/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+22        android:name="com.nusantaraceremony.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/580e8a8d8b85cb6081ef73130b5d7f18/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/580e8a8d8b85cb6081ef73130b5d7f18/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="com.nusantaraceremony.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/580e8a8d8b85cb6081ef73130b5d7f18/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/580e8a8d8b85cb6081ef73130b5d7f18/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+26
+27    <application
+27-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:21:5-63:19
+28        android:allowBackup="true"
+28-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:22:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-3/580e8a8d8b85cb6081ef73130b5d7f18/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:23:9-43
+32        android:label="Nusantara Ceremony"
+32-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:24:9-43
+33        android:networkSecurityConfig="@xml/network_security_config"
+33-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:29:9-69
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:25:9-54
+35        android:supportsRtl="true"
+35-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:26:9-35
+36        android:theme="@style/AppTheme"
+36-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:27:9-40
+37        android:usesCleartextTraffic="true" >
+37-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:28:9-44
+38
+39        <!-- Splash Screen -->
+40        <activity
+40-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:32:9-41:20
+41            android:name="com.nusantaraceremony.SplashActivity"
+41-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:33:13-43
+42            android:exported="true"
+42-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:34:13-36
+43            android:screenOrientation="portrait"
+43-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:35:13-49
+44            android:theme="@style/AppTheme" >
+44-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:36:13-44
+45            <intent-filter>
+45-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:37:13-40:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:38:17-69
+46-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:38:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:39:17-77
+48-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:39:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:43:9-61:20
+52            android:name="com.nusantaraceremony.MainActivity"
+52-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:44:13-41
+53            android:configChanges="orientation|screenSize|keyboardHidden"
+53-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:46:13-74
+54            android:exported="true"
+54-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:45:13-36
+55            android:screenOrientation="portrait"
+55-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:48:13-49
+56            android:windowSoftInputMode="adjustResize" >
+56-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:47:13-55
+57            <intent-filter>
+57-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:49:13-51:29
+58                <action android:name="android.intent.action.VIEW" />
+58-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:50:17-69
+58-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:50:25-66
+59            </intent-filter>
+60
+61            <!-- Deep link support -->
+62            <intent-filter android:autoVerify="true" >
+62-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:54:13-60:29
+62-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:54:28-53
+63                <action android:name="android.intent.action.VIEW" />
+63-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:50:17-69
+63-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:50:25-66
+64
+65                <category android:name="android.intent.category.DEFAULT" />
+65-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:56:17-76
+65-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:56:27-73
+66                <category android:name="android.intent.category.BROWSABLE" />
+66-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:57:17-78
+66-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:57:27-75
+67
+68                <data
+68-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:58:17-59:62
+69                    android:host="nusantaraceremony.store"
+69-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:59:21-59
+70                    android:scheme="https" />
+70-->/workspaces/tampilkan/app/src/main/AndroidManifest.xml:58:23-45
+71            </intent-filter>
+72        </activity>
+73
+74        <provider
+74-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/7766c0816e054ea801bcb9f7cf4d8589/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+75            android:name="androidx.startup.InitializationProvider"
+75-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/7766c0816e054ea801bcb9f7cf4d8589/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+76            android:authorities="com.nusantaraceremony.androidx-startup"
+76-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/7766c0816e054ea801bcb9f7cf4d8589/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+77            android:exported="false" >
+77-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/7766c0816e054ea801bcb9f7cf4d8589/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+78            <meta-data
+78-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/7766c0816e054ea801bcb9f7cf4d8589/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+79-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/7766c0816e054ea801bcb9f7cf4d8589/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+80                android:value="androidx.startup" />
+80-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-3/7766c0816e054ea801bcb9f7cf4d8589/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+81            <meta-data
+81-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/codespace/.gradle/caches/transforms-3/d1633c3604ea77a181dcb5f4f51a0256/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+82                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+82-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/codespace/.gradle/caches/transforms-3/d1633c3604ea77a181dcb5f4f51a0256/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+83                android:value="androidx.startup" />
+83-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/codespace/.gradle/caches/transforms-3/d1633c3604ea77a181dcb5f4f51a0256/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+84        </provider>
+85    </application>
+86
+87</manifest>

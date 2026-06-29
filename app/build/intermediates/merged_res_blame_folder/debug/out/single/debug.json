@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.nusantaraceremony.app-merged_res-28:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.nusantaraceremony.app-main-30:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.nusantaraceremony.app-merged_res-28:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.nusantaraceremony.app-main-30:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.nusantaraceremony.app-merged_res-28:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.nusantaraceremony.app-main-30:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.nusantaraceremony.app-merged_res-28:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.nusantaraceremony.app-main-30:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.0.2/com.nusantaraceremony.app-merged_res-28:/xml_network_security_config.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.0.2/com.nusantaraceremony.app-main-30:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.nusantaraceremony.app-merged_res-28:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.nusantaraceremony.app-main-30:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    }
+]
