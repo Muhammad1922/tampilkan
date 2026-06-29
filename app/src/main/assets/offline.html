@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nusantara Ceremony - Offline</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(135deg, #3d1a08 0%, #8B4513 50%, #D4AF37 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+  .card {
+    background: rgba(255,255,255,0.95);
+    border-radius: 16px;
+    padding: 40px 30px;
+    max-width: 340px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+  }
+  .icon { font-size: 60px; margin-bottom: 16px; }
+  h1 {
+    color: #8B4513;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+  }
+  button {
+    background: linear-gradient(135deg, #8B4513, #D4AF37);
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: inherit;
+    letter-spacing: 0.5px;
+  }
+  .logo {
+    font-size: 13px;
+    color: #aaa;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="icon">🌺</div>
+  <h1>Tidak Ada Koneksi</h1>
+  <p>Anda sedang offline. Silakan periksa koneksi internet Anda dan coba lagi untuk mengakses <strong>Nusantara Ceremony</strong>.</p>
+  <button onclick="window.location.reload()">🔄 Coba Lagi</button>
+  <div class="logo">Nusantara Ceremony</div>
+</div>
+</body>
+</html>
