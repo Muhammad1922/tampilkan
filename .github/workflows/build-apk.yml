@@ -27,13 +27,15 @@ jobs:
 
           distribution: 'temurin'
 
+      - uses: gradle/actions/setup-gradle@v4
+
+        with:
+
+          gradle-version: '8.0'
+
       - name: Build APK
 
-        run: |
-
-          chmod +x gradlew
-
-          ./gradlew assembleDebug --no-daemon
+        run: gradle assembleDebug --no-daemon
 
       - uses: actions/upload-artifact@v4
 
